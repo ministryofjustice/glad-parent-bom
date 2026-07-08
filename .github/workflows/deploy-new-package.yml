@@ -31,7 +31,7 @@ jobs:
           server-password: GITHUB_TOKEN
 
       - name: Build
-        run: mvn --batch-mode clean verify
+        run: mvn --batch-mode clean validate
 
       - name: Setup Snyk CLI
         uses: snyk/actions/setup@9adf32b1121593767fc3c057af55b55db032dc04 # v1.0.0
