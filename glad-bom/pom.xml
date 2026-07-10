@@ -13,13 +13,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Platform Versions -->
-        <aws.sdk.version>2.46.17</aws.sdk.version>
+        <aws.sdk.version>2.47.0</aws.sdk.version>
         <cucumber.version>7.34.3</cucumber.version>
         <spring-cloud-azure.version>7.3.0</spring-cloud-azure.version>
 
         <!-- Common CVE/Snyk Targets -->
         <logback.version>1.5.37</logback.version>
-        <tomcat.version>11.0.23</tomcat.version>
+        <tomcat.version>11.0.24</tomcat.version>
         <poi.version>5.5.1</poi.version>
 
         <!-- Shared Libraries -->
