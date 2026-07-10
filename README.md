@@ -8,7 +8,7 @@ It provides:
 - A standard Maven parent POM (`glad-parent`)
 - A single place to manage dependency versions, CVE fixes, build standards, and common tooling
 
-The goal is to allow consuming applications (GLAD services) to inherit a consistent platform configuration rather than 
+The goal is to allow consuming applications (GLAD services) to inherit a consistent platform configuration rather than
 individually managing dependency versions across multiple repositories.
 
 ---
@@ -51,7 +51,7 @@ Consumer GLAD service(s)
 
 ## Modules
 
-## glad-bom
+### glad-bom
 
 `glad-bom` is a Maven Bill of Materials (BOM).
 
@@ -79,7 +79,7 @@ A consuming application does not inherit from the BOM directly. It is imported b
 
 ---
 
-## glad-parent
+### glad-parent
 
 `glad-parent` is the standard Maven parent for GLAD services.
 
