@@ -58,7 +58,7 @@ runs:
       if: always()
       shell: bash
       run: |
-        if [[ "${{ steps.glad-bom.outcome }}" != "success" || \
-              "${{ steps.glad-parent.outcome }}" != "success" ]]; then
+        if [[ "${{ steps['glad-bom'].outcome }}" != "success" || \
+              "${{ steps['glad-parent'].outcome }}" != "success" ]]; then
           exit 1
         fi
