@@ -98,6 +98,7 @@ Example relationship:
     <groupId>uk.gov.laa</groupId>
     <artifactId>glad-parent</artifactId>
     <version>0.1.0</version>
+    <relativePath/>
 </parent>
 ```
 
@@ -132,6 +133,7 @@ After:
     <groupId>uk.gov.laa</groupId>
     <artifactId>glad-parent</artifactId>
     <version>0.1.0</version>
+    <relativePath/>
 </parent>
 ```
 

@@ -13,14 +13,14 @@
     <name>GLAD Platform</name>
 
     <modules>
-        <module>glad-bom</module>
         <module>glad-parent</module>
+        <module>glad-bom</module>
     </modules>
 
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/ministryofjustice/glad-parent-bom</url>
+            <url>https://maven.pkg.github.com/ministryofjustice/glad-platform</url>
         </repository>
     </distributionManagement>
 
