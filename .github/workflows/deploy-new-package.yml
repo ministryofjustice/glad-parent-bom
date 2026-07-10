@@ -68,18 +68,10 @@ jobs:
             -pl ${{ steps.module.outputs.module }} \
             clean verify
 
-      - name: Setup Snyk CLI
-        uses: snyk/actions/setup@9adf32b1121593767fc3c057af55b55db032dc04 # v1.0.0
-
       - name: Snyk Scan
-        run: |
-          snyk test \
-            --file=${{ steps.module.outputs.module }}/pom.xml \
-            --severity-threshold=high \
-            --sarif-file-output=snyk.sarif \
-            --policy-path=./.snyk
+        uses: './.github/snyk-scan'
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN}}
 
       - name: Upload Snyk SARIF
         uses: github/codeql-action/upload-sarif@54f647b7e1bb85c95cddabcd46b0c578ec92bc1a # v4.36.3
