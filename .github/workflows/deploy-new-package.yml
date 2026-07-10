@@ -77,6 +77,8 @@ jobs:
         uses: './.github/snyk-scan'
         with:
           snyk-token: ${{ secrets.SNYK_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish Maven Package
         run: |
