@@ -27,6 +27,6 @@ jobs:
           java-version: '25'
 
       - name: Run Snyk Scan
-        uses: ./.github/actions/snyk-scan
+        uses: ./.github/snyk-scan
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
