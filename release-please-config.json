@@ -6,11 +6,13 @@
   "packages": {
     "glad-bom": {
       "release-type": "maven",
-      "component": "glad-bom"
+      "component": "glad-bom",
+      "changelog-path": "glad-bom/CHANGELOG.md"
     },
     "glad-parent": {
       "release-type": "maven",
-      "component": "glad-parent"
+      "component": "glad-parent",
+      "changelog-path": "glad-parent/CHANGELOG.md"
     }
   }
 }
