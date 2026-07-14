@@ -7,12 +7,13 @@
     "glad-bom": {
       "release-type": "maven",
       "component": "glad-bom",
-      "changelog-path": "glad-bom/CHANGELOG.md"
+      "changelog-path": "CHANGELOG.md"
     },
     "glad-parent": {
       "release-type": "maven",
       "component": "glad-parent",
-      "changelog-path": "glad-parent/CHANGELOG.md"
+      "changelog-path": "CHANGELOG.md",
+      "release-as": "1.1.0"
     }
   }
 }
