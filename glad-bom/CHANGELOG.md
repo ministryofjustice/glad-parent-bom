@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/ministryofjustice/glad-platform/compare/glad-bom-v1.1.2...glad-bom-v2.0.0) (2026-07-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **LPF-1127:** upgrade openapi version to allow SILAS work ([#43](https://github.com/ministryofjustice/glad-platform/issues/43))
+
+### Features
+
+* **LPF-1127:** upgrade openapi version to allow SILAS work ([#43](https://github.com/ministryofjustice/glad-platform/issues/43)) ([f9be822](https://github.com/ministryofjustice/glad-platform/commit/f9be8228b39878ae4912a25dfd3df937edb4c64b))
+
 ## [1.1.2](https://github.com/ministryofjustice/glad-platform/compare/glad-bom-v1.1.1...glad-bom-v1.1.2) (2026-07-17)
 
 
